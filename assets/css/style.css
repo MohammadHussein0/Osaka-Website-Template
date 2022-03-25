@@ -1,0 +1,28 @@
+
+::root{
+    --mainColor:#ff206e;
+}
+
+
+body{
+ height:3000px
+}
+
+
+.home{
+
+    background-image: url('../img/bg-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: ; */
+
+}
+
+
+.header a{
+
+color:var(--mainColor);
+list-style: none;
+
+}
