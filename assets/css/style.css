@@ -1,5 +1,5 @@
 
-::root{
+:root{
     --mainColor:#ff206e;
 }
 
@@ -22,7 +22,14 @@ body{
 
 .header a{
 
-color:var(--mainColor);
-list-style: none;
+text-decoration: none;
+color: var(--mainColor);
 
+}
+
+.header .icon{
+    color: #fff;
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
 }
